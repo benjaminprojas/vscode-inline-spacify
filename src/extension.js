@@ -20,7 +20,7 @@ class InlineSpaces {
 		vscode.workspace.onDidSaveTextDocument(this.onDocumentSaved, this, this.subscriptions);
 		vscode.workspace.onDidChangeConfiguration(this.init, this, this.subscriptions);
 
-		let disposable = vscode.commands.registerCommand('extension.vscode-inline-spacify', this.inlineSpacify);
+		let disposable = vscode.commands.registerCommand('extension.vscode-inline-spacify', () => { this.inlineSpacify() });
 		this.subscriptions.push(disposable);
 		this.disposable = vscode.Disposable.from.apply(this.disposable, this.subscriptions);
 

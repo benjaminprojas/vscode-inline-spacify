@@ -5,10 +5,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.0.0] - 11/15/2017
+
+### Fixed
+- Context issue when using keyboard shortcut.
+
 ## [0.0.2] - 11/15/2017
 
 ### Updated
-- Icon and keywords
+- Icon and keywords.
 
 ## [0.0.1] - 11/15/2017
-- Initial Release
+- Initial Release.

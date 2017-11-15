@@ -2,7 +2,7 @@
 	"name": "vscode-inline-spacify",
 	"displayName": "Inline Spacify",
 	"description": "Convert inline tabs to spaces for text alignment purposes.",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"icon": "images/spacify.png",
 	"publisher": "benjaminprojas",
 	"engines": {

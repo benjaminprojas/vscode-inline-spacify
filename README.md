@@ -26,10 +26,14 @@ This extension defaults to the tab size of the current document, otherwise falls
 
 ## Release Notes
 
-### 0.0.1
+### 1.0.0
 
-Initial Release!
+Fix context issue when using keyboard shortcuts.
 
 ### 0.0.2
 
 Update icon and keywords.
+
+### 0.0.1
+
+Initial Release!
