@@ -1,6 +1,6 @@
 # vscode-inline-spacify README
 
-This allows users to convert tabs to spaces inline for alignment purposes. Simpley enable the plugin, then save an open document. All inline tabs will be converted to the proper spacing. (This excludes tabs at the beginning of a line).
+This allows users to convert tabs to spaces inline for alignment purposes. Simply enable the plugin, then save an open document. All inline tabs will be converted to the proper spacing. (This excludes tabs at the beginning of a line).
 
 ## Features
 The extension automatically runs on file save which is automatically handled by VS Code
