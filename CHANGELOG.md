@@ -5,6 +5,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.0.1] - 11/15/2017
+
+### Fixed
+- Active text editor can't be set to a class property.
+
 ## [1.0.0] - 11/15/2017
 
 ### Fixed

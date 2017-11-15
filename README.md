@@ -26,6 +26,10 @@ This extension defaults to the tab size of the current document, otherwise falls
 
 ## Release Notes
 
+### 1.0.1
+
+Active text editor can't be set to a class property.
+
 ### 1.0.0
 
 Fix context issue when using keyboard shortcuts.

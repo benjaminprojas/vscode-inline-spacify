@@ -11,10 +11,9 @@ class InlineSpaces {
 	constructor() {
 		this.subscriptions = [];
 		this.disposable    = vscode.Disposable;
-		this.editor        = vscode.window.activeTextEditor;
 		this.config        = {
 			"regex"   : new RegExp('[^\t]\t'),
-			"tabSize" : this.editor.options.tabSize || vscode.workspace.getConfiguration('editor').tabSize || 4
+			"tabSize" : vscode.window.activeTextEditor.options.tabSize || vscode.workspace.getConfiguration('editor').tabSize || 4
 		};
 
 		vscode.workspace.onDidSaveTextDocument(this.onDocumentSaved, this, this.subscriptions);
@@ -44,7 +43,7 @@ class InlineSpaces {
 			return;
 		}
 
-		this.editor.edit(editBuilder => {
+		vscode.window.activeTextEditor.edit(editBuilder => {
 			let line = vscode.TextLine;
 			for(let i = 0; i < doc.lineCount; i++) {
 				line = doc.lineAt(i);
