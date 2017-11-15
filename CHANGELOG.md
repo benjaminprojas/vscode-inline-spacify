@@ -5,5 +5,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 11/15/2017
+
+### Updated
+- Icon and keywords
+
 ## [0.0.1] - 11/15/2017
 - Initial Release

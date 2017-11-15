@@ -29,3 +29,7 @@ This extension defaults to the tab size of the current document, otherwise falls
 ### 0.0.1
 
 Initial Release!
+
+### 0.0.2
+
+Update icon and keywords.
